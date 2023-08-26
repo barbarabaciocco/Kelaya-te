@@ -162,8 +162,10 @@ h1{
     width: 50%;
     height: 40%;
 }
+.tex-energia {
+    width: 70%
 }
-
+}
 /*letras con color+tamaño*/
 .verde1{
     color:#b9de70;
