@@ -1,0 +1,81 @@
+.a1{
+    color: black;
+    font-size: 16px;
+    width: 50%;
+    padding-left: 1%;
+    text-align: justify;
+}
+.a2{
+    color: black;
+    font-size: 16px;
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+.a3{
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    /*grid-area: a3;*/
+}
+#a4{
+    height: 200%;
+    width: 100%;
+    background-color: #b9de70;
+    border: none;
+}
+
+/*h1-h4*/
+.n1{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.n2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.n3{
+    display: flex;
+    flex-direction: column;
+}
+#iz{
+    text-align: left;
+}
+#t-r1{
+    margin-left: 15%;
+    justify-items: end;
+    text-align: right;
+}
+#t-r2{
+    text-align: right;
+}
+
+/*VISTA MOBILE - RESPONSIVE */
+@media (max-width: 540px) {
+    .n1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    .a1{
+        width: 100%;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+    .a2{
+        width: 100%;
+        margin: 0%;
+    }
+    #t-r1{
+        margin-left: 0%;
+    }
+}

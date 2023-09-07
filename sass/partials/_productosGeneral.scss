@@ -1,0 +1,49 @@
+.centrar-producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.producto-top{
+    width: 30%;
+}
+
+.hierbas-producto{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/*Bootstrap Carrusel*/
+.fondo-producto{
+    background-color: #f6f0d8;
+}
+
+.carousel-control-prev-icon{
+    height: 8rem;
+    width: 4rem;
+}
+.carousel-control-next-icon{
+    height: 8rem;
+    width: 4rem;
+}
+.sr-only{
+    color: #629c44;
+}
+
+
+
+@media (max-width:540px){
+    .producto-top{
+        width: 60%;
+    }
+    .hierbas-producto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
