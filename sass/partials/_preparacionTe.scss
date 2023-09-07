@@ -3,33 +3,33 @@
     padding-top: 0%;
     padding-bottom: 4%;
 }
-.box-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 2fr);
-    padding-left: 0%;
+    .box-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 2fr);
+        padding-left: 0%;
 }
-.box-steps{
-    padding: 4%;
-    border: 1px solid black;
-    border-style: dotted;
-    text-align: center;
-}
+        .box-steps{
+            padding: 4%;
+            border: 1px solid black;
+            border-style: dotted;
+            text-align: center;
+        }
 .box-grid2{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
 }
-#cc{
-    text-align: center;
-}
-#cc1{
-    align-items: center;
-}
-.c1{
-    height: 40%;
-    width: fit-content;
-}
+    #cc{
+        text-align: center;
+    }
+    #cc1{
+        align-items: center;
+    }
+    .c1{
+        height: 40%;
+        width: fit-content;
+    }
 
 /*VISTA MOBILE - RESPONSIVE*/
 @media (max-width: 540px) {

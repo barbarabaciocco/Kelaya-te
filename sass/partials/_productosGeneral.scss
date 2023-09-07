@@ -4,9 +4,9 @@
     justify-content: center;
     align-items: center;
 }
-.producto-top{
-    width: 30%;
-}
+    .producto-top{
+        width: 30%;
+    }
 
 .hierbas-producto{
     height: 100%;
@@ -16,8 +16,14 @@
     justify-items: center;
     justify-content: space-evenly;
     align-items: center;
-
 }
+    .tex-producto{
+        width: 35%;
+        text-align: justify;
+        font-size: 15px;
+        font-family:'Edu SA Beginner', cursive;
+    }
+
 /*Bootstrap Carrusel*/
 .fondo-producto{
     background-color: #f6f0d8;
@@ -35,8 +41,6 @@
     color: #629c44;
 }
 
-
-
 @media (max-width:540px){
     .producto-top{
         width: 60%;
@@ -45,5 +49,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .tex-producto{
+        width: 70%
     }
 }
