@@ -6,10 +6,13 @@
     height: 45%;
     align-items: center;
     transform: rotate(270deg);
+    margin-top: 5%;
 }
 
 /*VISTA MOBILE - RESPONSIVE*/
+@media (max-width: 540px) {
 .extra-hierbas-plenitud{
     transform: none;
+}
 }
 

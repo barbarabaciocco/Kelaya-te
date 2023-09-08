@@ -1,413 +1,455 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-size: 70%;
-    font-family:'Edu SA Beginner', cursive;
-    background-color: #f6f0d8;
-}
-/* HEADER */
-.kelaya-nav-1{
-    height: 45px;
-    justify-self: center;
-}
-.kelaya-nav-2{
-    height: 45px;
-    justify-self: end;
-}
-.nav-link{
-    color: #629c44;
+@charset "UTF-8";
+h1 {
+  text-align: center;
 }
 
-a{
-    color: #b9de70;
-    text-decoration: none;
-    font-size: 1,5rem;
-}
-li{
-    list-style: none;
-}
-/*Usado para varios*/
-h1{
-    text-align: center;
-}
-/*Main - tamaño para acomodar footer*/
-main{
-    min-height: 80vh
+main {
+  min-height: 80vh;
 }
 
-/*index.html*/
-.i1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-} 
-.box-model{
-    height: 60%;
-    width: 30%;
-    transform: rotate(90deg);
-    margin-top: 10%;
-    margin-inline: -7%;
+/*letras con color+tamaño*/
+.verde1 {
+  color: #b9de70;
+  font-size: 29px;
 }
-/*VISTA MOBILE - RESPONSIVE index.html */
+
+.verde2 {
+  color: #629c44;
+  font-size: 20px;
+  padding-left: 2%;
+}
+
+.verde1-c {
+  color: #b9de70;
+  font-size: 29px;
+  text-align: center;
+}
+
+.verde2-c {
+  color: #629c44;
+  font-size: 20px;
+  text-align: center;
+}
+
+#iz {
+  text-align: left;
+}
+
+.n1 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.a1 {
+  color: black;
+  font-size: 16px;
+  width: 50%;
+  padding-left: 1%;
+  text-align: justify;
+}
+
+#t-r1 {
+  margin-left: 15%;
+  justify-items: end;
+  text-align: right;
+}
+
+.n2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.a2 {
+  color: black;
+  font-size: 16px;
+  width: 60%;
+  text-align: justify;
+  margin: auto;
+}
+
+#t-r2 {
+  text-align: right;
+}
+
+.n3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.a3 {
+  color: black;
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  text-align: justify;
+}
+
+#a4 {
+  height: 200%;
+  width: 100%;
+  background-color: #b9de70;
+  border: none;
+}
+
+/*VISTA MOBILE - RESPONSIVE */
 @media (max-width: 540px) {
-.i1{
+  .n1 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  .a1 {
+    width: 100%;
+    justify-self: stretch;
+    align-self: stretch;
+  }
+  .a2 {
+    width: 100%;
+    margin: 0%;
+  }
+  #t-r1 {
+    margin-left: 0%;
+  }
 }
-.box-model{
+.centrar-producto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto-top {
+  width: 30%;
+}
+
+.hierbas-producto {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 11%;
+}
+
+.tex-producto {
+  width: 50%;
+  text-align: justify;
+  font-size: 15px;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+.img-producto {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.extra-hierbas-1 {
+  width: 60%;
+}
+
+.extra-hierbas-2 {
+  width: 35%;
+}
+
+.fondo-producto {
+  background-color: #f6f0d8;
+}
+
+/*Bootstrap Carrusel*/
+.carousel-control-prev-icon {
+  height: 8rem;
+  width: 4rem;
+}
+
+.carousel-control-next-icon {
+  height: 8rem;
+  width: 4rem;
+}
+
+.sr-only {
+  color: #629c44;
+}
+
+@media (max-width: 540px) {
+  .producto-top {
+    width: 60%;
+  }
+  .hierbas-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tex-producto {
+    width: 70%;
+  }
+}
+#p1 {
+  margin-top: 4%;
+}
+
+.extra-hierbas-plenitud {
+  width: 45%;
+  height: 45%;
+  align-items: center;
+  transform: rotate(270deg);
+  margin-top: 5%;
+}
+
+/*VISTA MOBILE - RESPONSIVE*/
+@media (max-width: 540px) {
+  .extra-hierbas-plenitud {
+    transform: none;
+  }
+}
+.img-energia {
+  height: 20%;
+  width: 35%;
+}
+
+.extra-hierbas-energia {
+  width: 40%;
+  height: 40%;
+}
+
+.box-steps-p {
+  background-color: #b9de70;
+  padding-top: 0%;
+  padding-bottom: 4%;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  padding-left: 0%;
+}
+
+.box-steps {
+  padding: 4%;
+  border: 1px solid black;
+  border-style: dotted;
+  text-align: center;
+}
+
+.box-grid2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+}
+
+#cc {
+  text-align: center;
+}
+
+#cc1 {
+  align-items: center;
+}
+
+.c1 {
+  height: 40%;
+  width: fit-content;
+}
+
+/*VISTA MOBILE - RESPONSIVE*/
+@media (max-width: 540px) {
+  .box-steps-p {
+    padding-bottom: 0%;
+  }
+  .box-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 15%);
+  }
+  .box-grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 150px);
+    justify-items: center;
+  }
+  .c1 {
+    height: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 70%;
+  font-family: "Edu SA Beginner", cursive;
+  background-color: #f6f0d8;
+}
+
+.i1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.box-model {
+  height: 60%;
+  width: 30%;
+  transform: rotate(90deg);
+  margin-top: 10%;
+  margin-inline: -7%;
+}
+
+/*VISTA MOBILE - RESPONSIVE index.html */
+@media (max-width: 540px) {
+  .i1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-model {
     transform: none;
     height: fit-content;
     width: 70%;
     margin-top: 2%;
     margin-inline: 0%;
+  }
 }
-}
-
-/* css para productos general*/
-.centrar-producto{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.producto-top{
-    width: 30%;
-}
-.tex-producto{
-    width: 35%;
-    text-align: justify;
-    font-size: 15px;
-    font-family:'Edu SA Beginner', cursive;
+.kelaya-nav-1 {
+  height: 45px;
+  justify-self: center;
 }
 
-.hierbas-producto{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-/*Bootstrap Carrusel*/
-.fondo-producto{
-    background-color: #f6f0d8;
-}
-.carousel-control-prev-icon{
-    height: 8rem;
-    width: 4rem;
-}
-.carousel-control-next-icon{
-    height: 8rem;
-    width: 4rem;
-}
-.sr-only{
-    color: #629c44;
+.kelaya-nav-2 {
+  height: 45px;
+  justify-self: end;
 }
 
-/* css para productoEnergia.html*/
-.img-energia{
-    height: 20%;
-    width: 35%;
-}
-.extra-hierbas-energia{
-    width: 60%;
-    height: 50%;    
+.nav-link {
+  color: #629c44;
 }
 
-/* css para productoPlenitud.html*/
-#p1{
-    margin-top: 4%;
-}
-.extra-hierbas-plenitud{
-    width: 45%;
-    height: 45%;
-    align-items: center;
-    transform: rotate(270deg);
+a {
+  color: #b9de70;
+  text-decoration: none;
+  font-size: 1, 5rem;
 }
 
-/*VISTA MOBILE - RESPONSIVE productos.html GENERAL*/
-@media (max-width:540px){
-    .producto-top{
-        width: 60%;
-    }
-    .hierbas-producto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .tex-producto {
-        width: 70%
-    }
-/*PLENITUD*/
-    .extra-hierbas-plenitud{
-        transform: none;
-    }
-
-/*ENERGÍA*/
-    .extra-hierbas-energia {
-    width: 50%;
-    height: 40%;
-}
-.img-energia{
-    display: flex;
-    justify-content: center;
-    width: 80%;
-}
-}
-/*letras con color+tamaño*/
-.verde1{
-    color:#b9de70;
-    font-size: 29px;
-}
-.verde2{
-    color:#629c44;
-    font-size: 20px;
-    padding-left: 2%;
-}
-.verde1-c{
-    color:#b9de70;
-    font-size: 29px;
-    text-align: center;
-}
-.verde2-c{
-    color:#629c44;
-    font-size: 20px;
-    text-align: center;
+li {
+  list-style: none;
 }
 
-/* css para sobreNosotros.html*/ 
-.a1{
-    color: black;
-    font-size: 16px;
-    width: 50%;
-    padding-left: 1%;
-    text-align: justify;
-}
-.a2{
-    color: black;
-    font-size: 16px;
-    width: 60%;
-    text-align: justify;
-    margin: auto;
-}
-.a3{
-    color: black;
-    font-size: 16px;
-    width: 100%;
-    height: auto;
-    text-align: justify;
-}
-#a4{
-    height: 200%;
-    width: 100%;
-    background-color: #b9de70;
-    border: none;
+.footer1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  background-color: #629c44;
 }
 
-.n1{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-around;
-    align-items: center;
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.n2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+
+.contiene-logo-p {
+  width: 55%;
 }
-.n3{
-    display: flex;
-    flex-direction: column;
+
+.contiene-logo-m {
+  width: 25%;
 }
-#iz{
-    text-align: left;
+
+#f2 {
+  margin-right: -35%;
 }
-#t-r1{
-    margin-left: 15%;
-    justify-items: end;
-    text-align: right;
+
+.contiene-logo-g {
+  width: 9%;
 }
-#t-r2{
-    text-align: right;
+
+#f3 {
+  margin-right: -50%;
 }
-/*VISTA MOBILE - RESPONSIVE sobreNosotros.html */
+
+.footer-pedidos {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 5%;
+}
+
+.footer-letras1 {
+  color: white;
+  display: grid;
+  align-content: flex-end;
+  justify-items: center;
+  font-size: 15px;
+}
+
+.footer-letras2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  color: white;
+  font-size: 20px;
+}
+
+.contiene-logo2 {
+  width: 35%;
+  margin-top: -4%;
+}
+
+#f4 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.contacto1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-left: 15%;
+  padding-bottom: 2%;
+  background-color: #b9de70;
+  border: 1px solid black;
+  color: white;
+}
+
+.c-logo {
+  height: 3%;
+  width: 5%;
+  padding-right: 2%;
+}
+
+.logo-pedido {
+  height: 18%;
+  width: 18%;
+  background-color: #b9de70;
+}
+
+/*VISTA MOBILE - RESPONSIVE*/
 @media (max-width: 540px) {
-    .n1{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: stretch;
-    }
-    .a1{
-        width: 100%;
-        justify-self: stretch;
-        align-self: stretch;
-    }
-    .a2{
-        width: 100%;
-        margin: 0%;
-    }
-    #t-r1{
-        margin-left: 0%;
-    }
-}
-
-/*contactanos.html*/
-.contacto1{
-    display: flex;
-    flex-direction: column;
-    padding-top: 1%;
-    padding-left: 15%;
-    padding-bottom: 2%;
-    background-color: #b9de70;
-    border: 1px solid black;
-    color: white;
-}
-.c-logo{
-    height: 3%;
-    width: 5%;
-    padding-right: 2%;
-}
-.logo-pedido{
-    height: 18%;
-    width: 18%;
-    background-color: #b9de70;
-}
-
-/*VISTA MOBILE - RESPONSIVE contactanos.html */
-@media (max-width: 540px) {
-    .contacto1{
-        padding-left: 0%;
-    }
-    .letra-t{
-        font-size: 100%;
-    }
-    .c-logo{
-        width: 7%;
-    }
-    .logo-pedido{
-        width: 35%;
-    }
-}
-
-/*preparacionTe.html*/
-.box-steps-p{
-    background-color: #b9de70;
-    padding-top: 0%;
-    padding-bottom: 4%;
-}
-.box-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 2fr);
+  .contacto1 {
     padding-left: 0%;
-}
-.box-steps{
-    padding: 4%;
-    border: 1px solid black;
-    border-style: dotted;
-    text-align: center;
-}
-.box-grid2{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-}
-#cc{
-    text-align: center;
-}
-#cc1{
-    align-items: center;
-}
-.c1{
-    height: 40%;
-    width: fit-content;
-}
-
-/*VISTA MOBILE - RESPONSIVE preparacionTe.html */
-@media (max-width: 540px) {
-    .box-steps-p{
-        padding-bottom: 0%;
-    }
-    .box-grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 15%);
-    }
-    .box-grid2{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 150px);
-        justify-items: center;
-    }
-    .c1{
-        height: 100%;
-    }
-}
-
-/*FOOTER*/
-.footer1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    background-color: #629c44;
-}
-.footer-flex{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.contiene-logo-p{
-    width: 55%;
-}
-.contiene-logo-m{
-    width: 25%;
-}
-#f2{
-    margin-right: -35%;
-}
-.contiene-logo-g{
-    width: 9%;
-}
-#f3{
-    margin-right: -50%;
-}
-.contiene-logo2{
+  }
+  .letra-t {
+    font-size: 100%;
+  }
+  .c-logo {
+    width: 7%;
+  }
+  .logo-pedido {
     width: 35%;
-    margin-top: -4%;
+  }
 }
-#f4{
-    display: flex;
-    justify-content: center;
-    margin-left: 20%;
-}
-.footer-letras1{
-    color: white;
-    display: grid;
-    align-content: flex-end;
-    justify-items: center;
-    font-size: 15px;
-}
-.footer-pedidos{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    margin-left: 5%;
-}
-.footer-letras2{
-    display: flex;
-    justify-content: center;
-    margin-left: 20%;
-    color: white;
-    font-size: 20px;
-}
+
+/*# sourceMappingURL=estilo.css.map */

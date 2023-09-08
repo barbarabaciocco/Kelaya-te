@@ -16,19 +16,29 @@
     justify-items: center;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 11%;
 }
     .tex-producto{
-        width: 35%;
+        width: 50%;
         text-align: justify;
         font-size: 15px;
         font-family:'Edu SA Beginner', cursive;
     }
-
-/*Bootstrap Carrusel*/
+    .img-producto{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    .extra-hierbas-1{
+        width: 60%;
+    }
+    .extra-hierbas-2{
+        width: 35%;
+    }
 .fondo-producto{
     background-color: #f6f0d8;
 }
-
+/*Bootstrap Carrusel*/
 .carousel-control-prev-icon{
     height: 8rem;
     width: 4rem;
