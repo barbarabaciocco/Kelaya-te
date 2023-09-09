@@ -2,9 +2,7 @@
     text-align: left;
 }
 .n1{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
+    @include flex-row-center;
     justify-content: space-around;
     align-items: center;
 
@@ -22,8 +20,7 @@
         }
 }
 .n2{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -40,8 +37,7 @@
         }
 }
 .n3{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
 
     .a3{
         color: black;
@@ -60,8 +56,7 @@
 /*VISTA MOBILE - RESPONSIVE */
 @media (max-width: 540px) {
     .n1{
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         flex-wrap: wrap;
         align-content: stretch;
     

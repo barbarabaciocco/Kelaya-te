@@ -26,8 +26,13 @@ main{
     text-align: center;
 }
 
-@mixin hw{
+@mixin flex-row-center{
     display: flex;
     flex-direction: row;
     justify-items: center;
 }
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
