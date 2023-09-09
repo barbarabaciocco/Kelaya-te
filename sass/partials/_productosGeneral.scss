@@ -14,9 +14,10 @@
 .hierbas-producto{
     height: 100%;
     width: 100%;
-    display: flex;
+    /*@include hw;*/
+    /*display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-items: center;*/
     justify-content: space-evenly;
     align-items: center;
     padding-left: 11%;
