@@ -25,3 +25,9 @@ main{
     font-size: 20px;
     text-align: center;
 }
+
+@mixin felx-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}

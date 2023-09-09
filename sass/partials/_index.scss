@@ -12,7 +12,7 @@ html{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-    } 
+    
         .box-model{
             height: 60%;
             width: 30%;
@@ -20,12 +20,13 @@ html{
             margin-top: 10%;
             margin-inline: -7%;
         }
+    }
 /*VISTA MOBILE - RESPONSIVE index.html */
 @media (max-width: 540px) {
     .i1{
         display: flex;
         flex-direction: column;
-    }
+
         .box-model{
             transform: none;
             height: fit-content;
@@ -33,4 +34,5 @@ html{
             margin-top: 2%;
             margin-inline: 0%;
         }
+    }
 }

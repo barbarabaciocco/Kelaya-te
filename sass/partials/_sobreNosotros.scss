@@ -7,7 +7,7 @@
     justify-items: center;
     justify-content: space-around;
     align-items: center;
-}
+
     .a1{
         color: black;
         font-size: 16px;
@@ -20,14 +20,14 @@
             justify-items: end;
             text-align: right;
         }
-
+}
 .n2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
-}
+
     .a2{
         color: black;
         font-size: 16px;
@@ -38,11 +38,11 @@
         #t-r2{
             text-align: right;
         }
-
+}
 .n3{
     display: flex;
     flex-direction: column;
-}
+
     .a3{
         color: black;
         font-size: 16px;
@@ -50,13 +50,13 @@
         height: auto;
         text-align: justify;
     }
-        #a4{
-            height: 200%;
-            width: 100%;
-            background-color: #b9de70;
-            border: none;
-        }
-
+}
+#a4{
+    height: 200%;
+    width: 100%;
+    background-color: #b9de70;
+    border: none;
+}
 /*VISTA MOBILE - RESPONSIVE */
 @media (max-width: 540px) {
     .n1{
@@ -64,7 +64,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-content: stretch;
-    }
+    
         .a1{
             width: 100%;
             justify-self: stretch;
@@ -77,4 +77,5 @@
             #t-r1{
                 margin-left: 0%;
             }
+    }
 }

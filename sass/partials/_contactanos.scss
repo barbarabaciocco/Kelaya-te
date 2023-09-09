@@ -7,30 +7,37 @@
     background-color: #b9de70;
     border: 1px solid black;
     color: white;
-}
+
     .c-logo{
         height: 3%;
         width: 5%;
         padding-right: 2%;
     }
-        .logo-pedido{
-            height: 18%;
-            width: 18%;
-            background-color: #b9de70;
-        }
+}
+.n2{
+    .logo-pedido{
+        height: 18%;
+        width: 18%;
+        background-color: #b9de70;
+    }
+}
 
 /*VISTA MOBILE - RESPONSIVE*/
 @media (max-width: 540px) {
     .contacto1{
         padding-left: 0%;
-    }
+    
         .letra-t{
             font-size: 100%;
-        }
+        
             .c-logo{
                 width: 7%;
             }
-                .logo-pedido{
-                    width: 35%;
-                }
+        }
+    }
+.n2{
+    .logo-pedido{
+        width: 35%;
+    }
+}
 }
