@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     background-color: #629c44;
+    margin-top: 4%;
 
     .footer-flex{
         @include flex-row-center;
@@ -31,7 +32,7 @@
                     display: grid;
                     align-content: flex-end;
                     justify-items: center;
-                    font-size: 15px;
+                    font-size: 10px;
                 }
 }
     .footer-pedidos{
@@ -47,7 +48,7 @@
             font-size: 20px;
         }
             .contiene-logo2{
-                width: 35%;
+                width: 25%;
                 margin-top: -4%;
             }
                 #f4{

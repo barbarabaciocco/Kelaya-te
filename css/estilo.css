@@ -160,11 +160,15 @@ main {
 .carousel-control-prev-icon {
   height: 8rem;
   width: 4rem;
+  color: black;
+  background-image: url(../img/right-arrow.png);
 }
 
 .carousel-control-next-icon {
   height: 8rem;
   width: 4rem;
+  color: black;
+  background-image: url(../img/left-arrow.png);
 }
 
 .sr-only {
@@ -180,8 +184,11 @@ main {
     flex-direction: column;
     justify-content: center;
   }
-  .tex-producto {
-    width: 70%;
+  .hierbas-producto .tex-producto {
+    width: 75%;
+  }
+  .hierbas-producto {
+    padding-left: 0%;
   }
 }
 #p1 {
@@ -328,6 +335,7 @@ header .container-fluid .collapse li .nav-link a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   background-color: #629c44;
+  margin-top: 4%;
 }
 .footer1 .footer-flex {
   display: flex;
@@ -357,7 +365,7 @@ header .container-fluid .collapse li .nav-link a {
   display: grid;
   align-content: flex-end;
   justify-items: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .footer-pedidos {
@@ -374,7 +382,7 @@ header .container-fluid .collapse li .nav-link a {
   font-size: 20px;
 }
 .footer-pedidos .contiene-logo2 {
-  width: 35%;
+  width: 25%;
   margin-top: -4%;
 }
 .footer-pedidos #f4 {
@@ -390,7 +398,7 @@ header .container-fluid .collapse li .nav-link a {
   padding-left: 15%;
   padding-bottom: 2%;
   background-color: #b9de70;
-  border: 1px solid black;
+  border: 1px solid #629c44;
   color: white;
 }
 .contacto1 .c-logo {

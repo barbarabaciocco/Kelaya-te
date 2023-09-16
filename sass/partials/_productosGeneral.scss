@@ -43,10 +43,14 @@
 .carousel-control-prev-icon{
     height: 8rem;
     width: 4rem;
+    color: black;
+    background-image: url(../img/right-arrow.png)
 }
 .carousel-control-next-icon{
     height: 8rem;
     width: 4rem;
+    color: black;
+    background-image: url(../img/left-arrow.png)
 }
 .sr-only{
     color: #629c44;
@@ -59,8 +63,12 @@
 .hierbas-producto{
     @include flex-column;
     justify-content: center;
+
+    .tex-producto{
+        width: 75%
+    }
 }
-.tex-producto{
-    width: 70%
+.hierbas-producto{
+    padding-left: 0%;
 }
 }
