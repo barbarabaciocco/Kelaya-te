@@ -19,6 +19,30 @@
         width: 18%;
         background-color: #b9de70;
     }
+    .contiene-form{
+        padding: 1%;
+        border: 5px solid #b9de70;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .mb-3{
+        .form-label{
+            color: #629c44;
+        }
+        .form-control{
+            width: 100%;
+        }
+        #exampleFormControlTextarea1{
+            height: 100px;
+        }
+    }
+    .btn-primary{
+        background-color: #b9de70;
+        color: white;
+        border: #629c44;
+        margin-bottom: 1%;
+        margin-left: 45%;
+    }
 }
 
 /*VISTA MOBILE - RESPONSIVE*/
