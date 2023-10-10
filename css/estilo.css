@@ -343,6 +343,7 @@ header .container-fluid .collapse li .nav-link a {
 }
 .footer1 .footer-flex .contiene-logo-p {
   width: 55%;
+  margin-left: 30%;
 }
 .footer1 .footer-flex .contiene-logo-m {
   width: 25%;
@@ -352,9 +353,6 @@ header .container-fluid .collapse li .nav-link a {
 }
 .footer1 .footer-flex #f2 {
   margin-right: -35%;
-}
-.footer1 .footer-flex #f3 {
-  margin-right: -50%;
 }
 .footer1 .footer-letras1 {
   color: white;
